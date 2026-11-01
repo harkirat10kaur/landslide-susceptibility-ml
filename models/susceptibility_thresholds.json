@@ -1,0 +1,33 @@
+{
+  "region": "Himachal Pradesh, India",
+  "method": "Quantile Natural Intervals (Quintiles 20%, 40%, 60%, 80%)",
+  "threshold_cutoffs": {
+    "Q20": 0.08835287002959483,
+    "Q40": 0.39052215273861685,
+    "Q60": 0.6886822151677647,
+    "Q80": 0.8494114123449741
+  },
+  "classes": {
+    "Very Low": [
+      0.0,
+      0.08835287002959483
+    ],
+    "Low": [
+      0.08835287002959483,
+      0.39052215273861685
+    ],
+    "Moderate": [
+      0.39052215273861685,
+      0.6886822151677647
+    ],
+    "High": [
+      0.6886822151677647,
+      0.8494114123449741
+    ],
+    "Very High": [
+      0.8494114123449741,
+      1.0
+    ]
+  },
+  "note": "These tiers represent relative susceptibility across Himachal Pradesh, not absolute deterministic collapse probabilities."
+}

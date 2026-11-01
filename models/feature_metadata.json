@@ -1,0 +1,38 @@
+{
+  "dataset_region": "Himachal Pradesh, India",
+  "numeric_features": [
+    "slope_deg",
+    "elevation_m",
+    "aspect_deg",
+    "Aspect_cos",
+    "Aspect_sin",
+    "Dist_River_z",
+    "FlowAccumulation_z",
+    "NDVI_z",
+    "Rainfall_z"
+  ],
+  "categorical_features": [
+    "lulc_name"
+  ],
+  "all_features": [
+    "slope_deg",
+    "elevation_m",
+    "aspect_deg",
+    "Aspect_cos",
+    "Aspect_sin",
+    "Dist_River_z",
+    "FlowAccumulation_z",
+    "NDVI_z",
+    "Rainfall_z",
+    "lulc_name"
+  ],
+  "target_col": "class",
+  "target_classes": [
+    0,
+    1
+  ],
+  "class_names": [
+    "Non-Landslide",
+    "Landslide"
+  ]
+}

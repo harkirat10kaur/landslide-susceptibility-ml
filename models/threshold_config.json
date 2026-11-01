@@ -1,0 +1,8 @@
+{
+  "selected_threshold": 0.24000000000000002,
+  "default_threshold": 0.5,
+  "optimization_objective": "Maximize F2-score with Recall >= 0.90 on validation folds",
+  "validation_recall": 0.9778109665030936,
+  "validation_precision": 0.6917735849056604,
+  "validation_fpr": 0.43428328370906
+}

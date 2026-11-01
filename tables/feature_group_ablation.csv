@@ -1,0 +1,6 @@
+Ablation_Setting,Features_Removed,Num_Features_Used,Test_ROC_AUC,AUC_Drop
+Full Baseline (All Conditioning Factors),None (Baseline),10,0.9008998223862924,0.0
+Without Topographic / Morphometric,"slope_deg, elevation_m, aspect_deg, Aspect_cos, Aspect_sin",5,0.8434808223630749,0.05741900002321754
+Without Hydrologic Factors,"Dist_River_z, FlowAccumulation_z",8,0.8957150693041721,0.005184753082120297
+Without Climate / Rainfall,Rainfall_z,9,0.8841440586473497,0.01675576373894272
+Without Ecological & Land Cover,"NDVI_z, lulc_name",8,0.8735351222400223,0.027364700146270127

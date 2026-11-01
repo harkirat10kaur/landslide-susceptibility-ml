@@ -1,0 +1,91 @@
+file,column,description,units,source_or_likely_source,observed_range
+landslide_features_master_6503.csv,sno,"Inventory record ID; primary key, joins to hp_landslide_inventory_clean.sno",-,GSI inventory serial number,2.141e+04 to 3.384e+04
+landslide_features_master_6503.csv,latitude,"Latitude, WGS84 (EPSG:4326)",decimal degrees,Inventory,30 to 32.99
+landslide_features_master_6503.csv,longitude,"Longitude, WGS84 (EPSG:4326)",decimal degrees,Inventory,75.74 to 79.8
+landslide_features_master_6503.csv,aspect_deg,"Slope aspect (0-360, clockwise from north; circular variable)",degrees,SRTM 30 m derived (USGS/SRTMGL1_003),0 to 359
+landslide_features_master_6503.csv,curvature_plan,Plan curvature,1/m (sign convention: [AUTHOR TO CONFIRM] ),DEM derived,-2.866 to 0.005806
+landslide_features_master_6503.csv,curvature_profile,Profile curvature,1/m (sign convention: [AUTHOR TO CONFIRM] ),DEM derived,-9.15 to 0.01339
+landslide_features_master_6503.csv,dist_river_m,Distance to nearest river,m,HydroSHEDS-derived (as in paper),0 to 1.753e+04
+landslide_features_master_6503.csv,elevation_m,Elevation above mean sea level,m,SRTM 30 m,261 to 4882
+landslide_features_master_6503.csv,flow_accumulation_log,"Flow accumulation, log-transformed",log(cells) (log base: [AUTHOR TO CONFIRM] ),HydroSHEDS / DEM derived,0.6931 to 12.57
+landslide_features_master_6503.csv,hillshade,Hillshade,0-255,DEM derived,11 to 255
+landslide_features_master_6503.csv,label,Class label: 1 = landslide (all rows),binary,-,1 to 1
+landslide_features_master_6503.csv,roughness,Terrain roughness,m,DEM derived,0.4714 to 63.58
+landslide_features_master_6503.csv,slope_deg,Slope,degrees,SRTM 30 m derived,0 to 73
+landslide_features_master_6503.csv,spi,Stream power index (highly right-skewed; log-transform before modelling),dimensionless,DEM derived,0.01746 to 4.958e+05
+landslide_features_master_6503.csv,tpi,Topographic position index,m,DEM derived,-40.89 to 28
+landslide_features_master_6503.csv,tri,Terrain ruggedness index,m,DEM derived,1 to 205
+landslide_features_master_6503.csv,twi,Topographic wetness index,dimensionless,DEM derived,-1.066 to 15.96
+landslide_features_master_6503.csv,valley_depth,Valley depth,m,DEM derived,2 to 677
+landslide_features_master_6503.csv,rainfall_annual_mm,Mean annual rainfall,mm/yr (per column name),CHIRPS (likely),310.3 to 3202
+landslide_features_master_6503.csv,rainfall_monsoon_mm,Monsoon-season rainfall,mm (per column name),CHIRPS (likely),109.8 to 2590
+landslide_features_master_6503.csv,rainfall_p95_mm,95th-percentile daily rainfall,mm/day (per column name),CHIRPS (likely),6.129 to 57.38
+landslide_features_master_6503.csv,rainfall_rx1day_mm,Maximum 1-day rainfall,mm/day (per column name),CHIRPS (likely),23.58 to 226.4
+landslide_features_master_6503.csv,snow_cover_fraction,Snow-cover fraction,0-1 ([AUTHOR TO CONFIRM] ),MODIS (likely),0 to 0.3936
+landslide_features_master_6503.csv,temp_mean_annual_c,Mean annual air temperature,deg C,ERA5/WorldClim (likely),-10.37 to 23.45
+landslide_features_master_6503.csv,temp_seasonality,Temperature seasonality,units: [AUTHOR TO CONFIRM] ,WorldClim-style (likely),4747 to 7760
+landslide_features_master_6503.csv,soil_moisture_era5,Soil moisture,m3/m3 ([AUTHOR TO CONFIRM] ),ERA5-Land,0.08154 to 0.4456
+landslide_features_master_6503.csv,soil_bulkdens,Soil bulk density,g/cm3 or kg/m3 ([AUTHOR TO CONFIRM] ),SoilGrids/OpenLandMap (likely),930 to 1460
+landslide_features_master_6503.csv,soil_clay_pct,Soil clay content,% (per column name),SoilGrids/OpenLandMap (likely),12 to 35.9
+landslide_features_master_6503.csv,soil_sand_pct,Soil sand content,% (per column name),SoilGrids/OpenLandMap (likely),27.2 to 52.6
+landslide_features_master_6503.csv,soil_soc_g_kg,Soil organic carbon,g/kg (per column name),SoilGrids/OpenLandMap (likely),14.9 to 113.2
+landslide_features_master_6503.csv,dist_agri,Distance to agricultural land,m ([AUTHOR TO CONFIRM] ),ESA WorldCover (likely),0 to 2.327e+04
+landslide_features_master_6503.csv,dist_urban,Distance to built-up area,m ([AUTHOR TO CONFIRM] ),ESA WorldCover (likely),0 to 1.221e+04
+landslide_features_master_6503.csv,lulc_class,Land-use/land-cover class code,ESA WorldCover code (10-100),ESA WorldCover (likely),10 to 100
+landslide_features_master_6503.csv,erosion_risk_index,Erosion risk index,index; derivation: [AUTHOR TO CONFIRM] ,[AUTHOR TO CONFIRM] derived,1.1e-06 to 1.246
+landslide_features_master_6503.csv,geomorphon_class,Geomorphon landform class,class code 1-10,DEM derived,1 to 8
+landslide_features_master_6503.csv,lst_mean_k,Mean land-surface temperature,K,MODIS (likely),276.2 to 301.6
+landslide_features_master_6503.csv,nightlights_ntl,Night-time lights,radiance,VIIRS/DMSP (likely),0.253 to 25.67
+landslide_features_master_6503.csv,pop_density,Population density,persons/km2 ([AUTHOR TO CONFIRM] ),WorldPop/GPW (likely),0 to 591.7
+landslide_features_master_6503.csv,vs30_m_s,"Time-averaged shear-wave velocity, top 30 m",m/s,USGS Vs30 (likely),300 to 1000
+landslide_features_master_6503.csv,bsi,Bare soil index,-1 to 1,Sentinel-2/Landsat,-0.3305 to 0.2994
+landslide_features_master_6503.csv,evi_median,Median enhanced vegetation index,-1 to 1,Sentinel-2/Landsat/MODIS,-0.004933 to 0.4587
+landslide_features_master_6503.csv,forest_loss_flag,Forest loss indicator (0/1),binary,Hansen GFC (likely),0 to 1
+landslide_features_master_6503.csv,ndvi_median,Median NDVI,-1 to 1,Sentinel-2/Landsat,-0.01785 to 0.7835
+landslide_features_master_6503.csv,ndvi_stddev,Standard deviation of NDVI,-,Sentinel-2/Landsat,0.03154 to 0.3867
+landslide_features_master_6503.csv,n_records_at_coord,Number of records sharing this exact coordinate (>1 = co-located duplicates / pseudo-replicates),count,added during cleaning,1 to 15
+landslide_features_master_6503.csv,duplicate_feature_vector,True if another row has an identical 42-feature vector,bool,added during cleaning,True/False
+landslide_modelling_dataset_12409.csv,sample_id,Row number 1..12409 (assigned during packaging),-,-,1 to 1.241e+04
+landslide_modelling_dataset_12409.csv,gee_system_index,Original Google Earth Engine system:index,-,GEE export,text
+landslide_modelling_dataset_12409.csv,longitude,Longitude of the 30 m SRTM pixel centre (extracted from .geo); WGS84,decimal degrees,GEE sampleRegions,75.71 to 79.83
+landslide_modelling_dataset_12409.csv,latitude,Latitude of the 30 m SRTM pixel centre; WGS84,decimal degrees,GEE sampleRegions,29.97 to 33.01
+landslide_modelling_dataset_12409.csv,class,"1 = landslide, 0 = non-landslide (pseudo-absence)",binary,-,0 to 1
+landslide_modelling_dataset_12409.csv,Aspect_z,"Aspect, z-score standardised (mean 0, SD 1 over all 12,409 rows)",z-score,SRTM,-1.804 to 1.831
+landslide_modelling_dataset_12409.csv,Dist_River_z,"Distance to river, z-score standardised",z-score,HydroSHEDS,-0.1314 to 8.041
+landslide_modelling_dataset_12409.csv,Elevation_z,"Elevation, z-score standardised",z-score,SRTM,-1.214 to 3.68
+landslide_modelling_dataset_12409.csv,FlowAccumulation_z,"Flow accumulation, z-score standardised",z-score,HydroSHEDS,-0.5783 to 5.005
+landslide_modelling_dataset_12409.csv,NDVI_z,"NDVI, z-score standardised",z-score,Landsat,-5.971 to 1.795
+landslide_modelling_dataset_12409.csv,Rainfall_z,"Rainfall, z-score standardised",z-score,CHIRPS,-2.328 to 3.924
+landslide_modelling_dataset_12409.csv,Slope_z,"Slope, z-score standardised",z-score,SRTM,-1.992 to 3.733
+landslide_modelling_dataset_12409.csv,aspect_deg,"Aspect, raw",degrees,SRTM,0 to 359
+landslide_modelling_dataset_12409.csv,elevation_m,"Elevation, raw",m,SRTM,246 to 6430
+landslide_modelling_dataset_12409.csv,slope_deg,"Slope, raw",degrees,SRTM,0 to 76.82
+landslide_modelling_dataset_12409.csv,LULC_10,One-hot flag: land cover = WorldCover class 10,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_20,One-hot flag: land cover = WorldCover class 20,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_30,One-hot flag: land cover = WorldCover class 30,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_40,One-hot flag: land cover = WorldCover class 40,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_50,One-hot flag: land cover = WorldCover class 50,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_60,One-hot flag: land cover = WorldCover class 60,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_70,One-hot flag: land cover = WorldCover class 70,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_80,One-hot flag: land cover = WorldCover class 80,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_90,One-hot flag: land cover = WorldCover class 90,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,LULC_100,One-hot flag: land cover = WorldCover class 100,0/1,ESA WorldCover,0 to 1
+landslide_modelling_dataset_12409.csv,lulc_code,ESA WorldCover v100 (2020) class code,10-100,ESA WorldCover,10 to 100
+landslide_modelling_dataset_12409.csv,lulc_name,Class name for lulc_code,-,ESA WorldCover,text
+landslide_modelling_dataset_12409.csv,nearest_inventory_sno,"Class 1 only: sno of the nearest inventory record (point is snapped to a 30 m pixel centre, so this is a nearest-neighbour link, not an exact key)",-,packaging,2.141e+04 to 3.384e+04
+landslide_modelling_dataset_12409.csv,match_dist_m,Class 1 only: distance to that inventory record (max 20.9 m),m,packaging,0.3 to 20.9
+landslide_modelling_dataset_12409.csv,n_samples_at_coord,Number of rows in this file at the same coordinate,count,packaging,1 to 15
+hp_landslide_inventory_clean.csv,sno,Record ID (primary key),-,GSI inventory,
+hp_landslide_inventory_clean.csv,latitude,Latitude WGS84,decimal degrees,GSI inventory,
+hp_landslide_inventory_clean.csv,longitude,Longitude WGS84,decimal degrees,GSI inventory,
+hp_landslide_inventory_clean.csv,slide_name,Name given in inventory (mostly blank),-,GSI inventory,
+hp_landslide_inventory_clean.csv,district,"District, spellings normalised (Sirmur/Sirmour->Sirmaur, Lahul/Lahaul & Spiti->Lahaul and Spiti)",-,GSI inventory,
+hp_landslide_inventory_clean.csv,subdivision,Sub-division / tehsil as in source,-,GSI inventory,
+hp_landslide_inventory_clean.csv,material,Debris / Rock / Soil / Glaciofluvial,-,GSI inventory,
+hp_landslide_inventory_clean.csv,movement,"Slide, Fall, Topple, Flow, Creep, Subsidence, Composite, etc.",-,GSI inventory,
+hp_landslide_inventory_clean.csv,year,"Year of occurrence; blank when unknown (source used 0 for unknown in 5,886 rows)",-,GSI inventory,
+hp_landslide_inventory_clean.csv,event_note,Free-text date note from source (garbled entries removed),-,GSI inventory,
+hp_landslide_inventory_clean.csv,n_records_at_coord,Records sharing this exact coordinate,-,GSI inventory,
+hp_landslide_inventory_clean.csv,in_feature_table,False for the 36 records absent from landslide_features_master_6503.csv,-,GSI inventory,
+hp_landslide_inventory_clean.csv,label,1 = landslide,-,GSI inventory,
+hp_landslide_inventory_clean.csv,flag_note,"What was changed in this record during cleaning, if anything",-,GSI inventory,

@@ -1,0 +1,8 @@
+{
+  "model": "Random Forest (Primary)",
+  "region": "Himachal Pradesh, India",
+  "test_roc_auc": 0.9008998223862924,
+  "ci_lower_95": 0.8880270310323758,
+  "ci_upper_95": 0.9133872089171833,
+  "n_bootstraps": 1000
+}
